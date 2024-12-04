@@ -18,7 +18,7 @@ body {
   text-align: center;
 }
 
-.quote-card {
+#quote-card {
   width: auto;
   max-width: 900px;
   background-color: white;
@@ -35,7 +35,11 @@ body {
   font-size: 2.75rem;
 }
 
-.quote-author {
+span[class="quote-long"] {
+  font-size: 1.8rem !important;
+}
+
+#quote-author {
   padding: 20px 0;
   font-size: 2rem;
   font-weight: 700;
