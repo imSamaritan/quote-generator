@@ -68,7 +68,12 @@ button:hover {
 
 button:active {
   transform: translate(0, 7px);
-  box-shadow: 0 7px 3px rgba(248, 246, 246, 0.9);
+  box-shadow: 0 0px 3px rgba(248, 246, 246, 1);
+}
+
+button:last-child:hover {
+  color: #0000ff;
+  border-color: #0000ff;
 }
 
 
