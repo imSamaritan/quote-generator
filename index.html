@@ -9,11 +9,18 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
   <!-- importing main global css stylesheet -->
   <link rel="stylesheet" href="style.css">
+  <script defer src="./components/footer/footer.js"></script>
 </head>
 <body>
   
   <!-- Quote -->
    <div id="quote-card">
+    <!-- Header -->
+    <header>
+      <img src="./imgs/imsamaritan-logo.png" alt="Quote Generator"
+      style="margin-bottom: 10px; width: 100px;">
+      <p><h1>Quote Generator</h1></p>
+    </header>
     <!-- quote icon -->
      <span class="fa fa-quote-left"></span>
      <!-- quote text -->
@@ -33,6 +40,9 @@
           <span class="fa fa-twitter"></span>
         </button>
        </div>
+
+       <!-- Social links -->
+       <qg-footer></qg-footer>
    </div>
    <!-- End quote -->
    

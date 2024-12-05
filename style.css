@@ -102,7 +102,7 @@ button:last-child:hover {
 /* Media query for teblet and mobile */
 
 @media screen and (max-width: 1000px) {
-  .quote-card {
+  #quote-card {
     margin: auto 5px;
   }
 
