@@ -11,6 +11,11 @@ ul li {
 
 footer .fa {
   font-size: 25px;
+  color: #333;
+}
+
+.fa:hover {
+  filter: brightness(75%);
 }
 
 img {
